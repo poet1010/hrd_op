@@ -1,6 +1,5 @@
-streamlit==1.32.0
-pandas==2.2.1
-plotly==5.19.0
-numpy==1.26.4
-openpyxl==3.1.2 
-plotly-express
+streamlit==1.32.0  # 현재 Streamlit 버전을 1.32.0으로 명확히 지정
+pandas==2.2.1      # Pandas 버전도 2.2.1로 명확히 지정 (이전 로그에 보였던 버전)
+plotly-express     # plotly는 plotly-express가 자체적으로 의존성을 관리하게 둠
+matplotlib         # 필요시
+seaborn            # 필요시
